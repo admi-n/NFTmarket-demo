@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+// https://app.pinata.cloud/ipfs/files
+// forge create --rpc-url $rpc --private-key $PRIVATE_KEY NFTMarketplace
+// cast send <CONTRACT_ADDRESS> "mintNFT(string)" <tokenURI> --rpc-url <RPC_URL> --private-key <PRIVATE_KEY>
+
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 
